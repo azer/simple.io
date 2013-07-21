@@ -1,0 +1,29 @@
+{
+  "name": "simple.io",
+  "version": "0.0.0",
+  "description": "Minimalistic wrapper around engine.io and engine.io-client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "fox"
+  },
+  "dependencies": {
+    "engine.io-client": "0.5.x",
+    "pubsub": "0.0.5"
+  },
+  "devDependencies": {
+    "engine.io": "x",
+    "fox": "*"
+  },
+  "keywords": [
+    "engine.io",
+    "socket.io",
+    "pubsub",
+    "realtime"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/simple.io.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD"
+}
