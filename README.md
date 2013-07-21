@@ -31,7 +31,7 @@ io.pub({ from: 'paul', text: 'Oh, morning, William, how are you?' })
 Client-side:
 
 ```js
-io = require('simple.io')
+io = require('simple.io')() // or: require('simple.io')('localhost:1234')
 
 io.pub({ from: 'william', text: 'Morning, Paul.' })
 
