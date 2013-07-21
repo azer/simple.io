@@ -7,11 +7,11 @@
     "test": "fox"
   },
   "dependencies": {
+    "engine.io": "x",
     "engine.io-client": "0.5.x",
     "pubsub": "0.0.5"
   },
   "devDependencies": {
-    "engine.io": "x",
     "fox": "*"
   },
   "keywords": [
