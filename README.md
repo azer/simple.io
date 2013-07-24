@@ -14,18 +14,21 @@ Server-side:
 
 ```js
 server = require('http').createServer().listen(3000)
-io = require('simple.io')(server)
+onConnect = require('simple.io')(server)
 
-io.sub(function(msg){
+onConnect(function(io){
+  
+  io.sub(function(msg){
+    msg.from
+    // => 'william'
 
-  msg.from
-  // => 'william'
+    msg.text
+    // => 'Morning, Paul'
+  })
 
-  msg.text
-  // => 'Morning, Paul'
+  io.pub({ from: 'paul', text: 'Oh, morning, William, how are you?' })
+  
 })
-
-io.pub({ from: 'paul', text: 'Oh, morning, William, how are you?' })
 ```
 
 Client-side:
