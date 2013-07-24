@@ -17,7 +17,6 @@ server = require('http').createServer().listen(3000)
 onConnect = require('simple.io')(server)
 
 onConnect(function(io){
-  
   io.sub(function(msg){
     msg.from
     // => 'william'
@@ -27,7 +26,6 @@ onConnect(function(io){
   })
 
   io.pub({ from: 'paul', text: 'Oh, morning, William, how are you?' })
-  
 })
 ```
 
