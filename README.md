@@ -1,6 +1,6 @@
 ## simple.io
 
-Minimalistic wrapper around engine.io and engine.io-client.
+Minimalistic wrapper around engine.io* that you can browserify.
 
 ## Install
 
