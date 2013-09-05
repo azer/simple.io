@@ -53,5 +53,3 @@ io.sub(function(msg){
 $ npm install -g indev
 $ indev test
 ```
-
-![](https://dsz91cxz97a03.cloudfront.net/CHOgLc5FnJ-1200x1200.jpeg)
