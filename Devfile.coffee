@@ -2,7 +2,7 @@ fox = bin "fox"
 
 task 'test', '*.js', 'lib', ->
   debug 'Running server tests on :3003'
-  fox 'test/server.js'
+  fox.async 'test/server.js -t 15000'
 
   debug 'Running client-side tests on :7559'
-  fox 'test/client.js -bv'
+  fox.async 'test/client.js -bv'

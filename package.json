@@ -12,7 +12,8 @@
     "pubsub": "0.0.5"
   },
   "devDependencies": {
-    "fox": "1.0.x"
+    "fox": "1.0.x",
+    "indev": "1.x"
   },
   "keywords": [
     "engine.io",
