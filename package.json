@@ -1,6 +1,6 @@
 {
   "name": "simple.io",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Minimalistic wrapper around engine.io and engine.io-client.",
   "main": "index.js",
   "scripts": {
